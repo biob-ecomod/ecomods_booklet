@@ -5,7 +5,7 @@ date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
-url: https://biob-ecomod.github.io/Ecomods-Booklet
+url: https://biob-ecomod.github.io/ecomods_booklet
 cover-image: booklet_pictures/workingGroup_2021.jpg
 description: |
   This is HowTo of the CCTB Würzburg EcoMods members.
