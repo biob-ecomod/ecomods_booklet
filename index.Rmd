@@ -25,6 +25,7 @@ knitr::include_graphics("booklet_pictures/workingGroup_2021.jpg")
 In this document, you will (hopefully) find everything you need for your
 course / internship / thesis with us.
 
+
 ## Very first things
 
 The very first things you should do before starting your work are:
