@@ -1,0 +1,157 @@
+---
+title: "Intro to the Unix shell and SLURM"
+format: html
+editor: visual
+---
+
+# Overview
+
+Modelling projects often require running a large number of replicates or parameter sets for computationally-demanding models, which will exceed what can be run on the typical laptop within reasonable time.
+
+For such projects, it will often be preferable to run them on a high performance cluster.
+
+The HPC available to BIOB is called Marvin.
+
+The main barrier to learning how to navigate a HPC is that they typically don't provide a graphical interface with browsable and clickable windows that we are used to. Instead, one must communicate with the HPC by sending text instrcutions called commands, which is done through a command-line interface, or CLI.
+
+Given that most HPCs (including Marvin) run on some distribution of Linux, the easiest way to run commands is through a Unix shell, specifically Bash.
+
+Therefore, using a HPC requires learning a bit about Bash.
+
+# BASH
+
+## Accessing the Bash command-line interface in Windows
+
+Since Mac and Linux systems are both derived from the Unix operating systems, both come directly with a Bash interface. Simply search for the application called Terminal.
+
+Windows has its own CLI, called the PowerShell, which provides the same utilities as Bash but uses a very different syntax.
+
+install MinGW / git bash / Windows Subsystem for Linux
+
+## File navigation in BASH
+
+`ls`
+
+ls options
+
+`man`
+
+`cd`
+
+`pwd`
+
+`../`
+
+`./`
+
+`~`
+
+changing the root dir
+
+`cat`
+
+## Creating new files and folders
+
+`mkdir`
+
+`touch`
+
+`rm`
+
+`rm -rf`
+
+`nano`
+
+is nano available by default on windows?
+
+## Basics of programming in BASH
+
+variable assignment
+
+`echo $`
+
+arithmetic operations
+
+creating and iterating over arrays
+
+for loops and conditional statements
+
+## Writing BASH scripts
+
+shebang
+
+bash command
+
+passing parameters to a bash script
+
+## Running R Code in BASH
+
+From the snippets of code above, it might become apparent that BASH scripts quickly get overly busy and complex. Indeed, BASH is poorly suited for advanced programming tasks, such as writing algorithms and simulations. Instead, BASH was designed primarily to assist in managing the file system and tasks executed by the computer, and that's where it shines best: as you learn more about writing scripts in BASH, you will see that it is easy to write scripts to manage your workload, for example scheduling an array of jobs from a set of parameters.
+
+Instead, it is best to delegate the complex tasks to a more flexible programming language, such as R or C++, and use BASH to manage the execution of scripts.
+
+```{bash}
+#| eval: false
+Rscript my_script.R
+Rscript -e "runif(1, 0, 100)
+```
+
+# In practice: running an array of
+
+# Working with the HPC
+
+Our HPC is called Marvin, likely a reference to the android in the Hitchhiker's Guide to the Galaxy, because computer scientists are huge nerds.
+
+## Getting access
+
+Fill and submit the forms to get access.
+
+## Connecting to the HPC: ssh
+
+`ssh <marvin_username>@marvin.hpc.uni-bonn.de`
+
+Need to generate oauth token first and upload it.
+
+Once you are connected, should display something like `username@login_02`
+
+You land on a login node. No direct access to the computational nodes of the cluster: these are only accessed through SLURM, see next section.
+
+DO NOT run expensive tasks on the login node, but you may run quick tests and other inexpensive tasks.
+
+## SLURM
+
+SLURM is the workload management system used to schedule and distribute jobs across the nodes (individual computers) that make up the HPC and manage shared access by multiple users.
+
+`sinfo`
+
+`sbatch`
+
+`squeue`
+
+## Writing a job script
+
+Like a regular unix scripts, except you need to add slurm commands
+
+`#SBATCH --partition` etc
+
+# Running a job
+
+`sbatch`
+
+`squeue`
+
+`sinfo`
+
+`squeue -u $USER`
+
+`squeue -p` ?
+
+### Sharing data / folders
+
+`chown :<group> <path_to_dir>`
+`chown -R` for all nested folders
+
+Our group ID (`ag_biob_scabral`) should be `5253`, can be found with `id`
+
+
+
