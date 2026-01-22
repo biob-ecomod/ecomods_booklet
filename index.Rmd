@@ -8,96 +8,42 @@ bibliography: [book.bib, packages.bib]
 url: https://biob-ecomod.github.io/ecomods_booklet
 cover-image: booklet_pictures/workingGroup_2021.jpg
 description: |
-  This is HowTo of the CCTB Würzburg EcoMods members.
+  Guides and tutorials for members of the Ecomod research group at the University
+  of Bonn
 link-citations: yes
-github-repo: CCTB-Ecomods/Ecomods-Booklet
+github-repo: biob-ecomod/ecomods_booklet
 editor_options: 
   markdown: 
     wrap: 72
 ---
 
-# Hello and welcome to the EcoMods working group!
+# About this book
 
-```{r EcoMods, fig.cap="The EcoMods in 2020", echo=FALSE}
-knitr::include_graphics("booklet_pictures/workingGroup_2021.jpg")
-```
+Hello and welcome to the EcoMods working group!
 
 In this document, you will (hopefully) find everything you need for your
 course / internship / thesis with us.
 
+The book is meant to be a live document, and will be updated continuously.
+As you browse through sections, you will encounter empty or incomplete sections.
+You're welcome to ask for sections to be added, updated, or even better, improve
+it yourself! See section \@ref(contributing).
 
-## Very first things
+## Acknowldegements and licensing
 
-The very first things you should do before starting your work are:
+This manual is an update of a manual of the [original Ecomods](CCTB-Ecomods/Ecomods-Booklet) at the University
+of Würzburg. Huge thanks to them for assembling this knowledge base!
 
--   **Mailinglists**: subscribe to the CCTB and EcoMods [mailing
-    lists](https://lists.uni-wuerzburg.de). Select CCTB and ecomod-cctb
-    and register using your email address. These lists are used for
-    announcements of talks or other important events.
+The manual is published under the terms of the [MIT License](https://github.com/biob-ecomod/ecomods_booklet/blob/main/LICENSE), which means you can
+freely copy, modify and share its contents as long as you acknowledge the original
+work and provide a copyright notice and copy in the license in all derived works.
 
--   **Account**: get an account in the CCTB server. Our IT support,
-    Patrick Haag (patrick.haag(at)uni-wuerzburg.de), can do this for
-    you.
+## Contributing to this book
 
--   **Keys**: get access to the building. Your student ID card needs to
-    be unlocked to be able to use it as a key for all doors. Patrick
-    will also help you with this.
+We gladly accept any suggestions on how to improve this guide, so
+let us know if you feel that anything is missing!
 
--   **Mattermost**: remind your supervisor to send you an invitation
-    link for our
-    [Mattermost](https://cctb-intern.biologie.uni-wuerzburg.de). We use
-    Mattermost for CCTB-wide communication. Be aware that the
-    certificate for enabling https is self-signed. This means when you
-    visit the Mattermost site for the first time, you will have to add
-    it as an exception. Mattermost contains channels for different
-    purposes like organizational stuff, lunch planning, working groups,
-    etc. It is very similar to Slack, if you have used that before.
-    There is also a [Desktop
-    App](https://about.mattermost.com/download/#mattermostApps).
-
--   **Meetings**: save these time slots for obligatory participation:
-
-    -   weekly CCTB seminar, Wednesdays 11:00-12:00
-    -   weekly EcoMods lab meeting, Thursdays 13:30-15:00
-
--   **Gathertown**: we also have a CCTB Gathertown which is basically a
-    virtual office space. It was used a lot during home office times,
-    now, not as much anymore. But if you post on Mattermost that you
-    would like to meet for a virtual coffee break, people will show up!
-    You'll find the link in the header of the town-square channel on
-    Mattermost
-
--   **IT questions:** if you ever run into any IT-related problems that
-    you cannot solve alone, post it in the Mattermost IT channel.
-
-We hope that this document helps you to learn more about how to do
-Ecological Modeling and how to navigate life at the CCTB. If you have
-any questions, you can come by our offices or send us an email any time.
-
-## What you can find in this booklet
-
-You'll find information about the following topics:
-
--   **Programming tools** in Chapter \@ref(programming-tools)
-
--   **IT infrastructure** in Chapter \@ref(it-infrastructure)
-
--   **Process based models** in Chapter \@ref(process-based-models)
-
--   **Computational methods** in Chapter \@ref(computational-methods)
-
--   **Project management** in Chapter \@ref(project-management)
-
--   **Writing & Publishing** in Chapter \@ref(writing-publishing)
-
-We also gladly accept any suggestions on how to improve this guide, so
-let us (Figure \@ref(fig:EcoMods)) know if you feel that anything is
-missing! This document is under constant construction, so don't wonder
-about missing parts. :)
-
-## How to edit this booklet
-
-This booklet is written as bookdown document. This means, that it
+This booklet is a bookdown document. This means, that it
 consists of several R Markdown files. To learn R markdown see section
 \@ref(rmd). The booklet is hosted on
 [GitHub](https://github.com/CCTB-Ecomods/Ecomods-Booklet) (see section
@@ -126,18 +72,53 @@ beginner can understand it.
 If you find any missing topics, collect them here or write a *TODO* at
 the appropriate part.
 
-### TODOs Juliano
+## People
 
-*Juliano*, do you have scripts for these points below that I could link?
 
-Playing with R Codes - Intro R - First Models - Intro Ecological
-Functions and Simulations Exercise - First Functions and Simulations -
-Shiny
 
-### TODOs Anne
+## Induction
 
--   improve sections \@ref(sensitivity-analyses) and
-    \@ref(parameter-optimization)
--   add more language tips \@ref(language-tips)
+Welcome to the group! We hope you have a great time with us and that your 
+experience in your lab will be the opportunity to develop your academic skills
+and explore exciting research!
 
-### 
+Here are the things you should be upon starting your projects:
+
+-   **Keys**: our lab is hosted in the old NEES institute, Venusbergweg 22, at 
+the edge of the Botanische Gärten. Access to the building and other facilities
+of the institute is managed through transponders, which you must obtain in 
+person from Elke Friesecke at the main Plant Biodiversity building. 
+Upon leaving
+
+- **Slack**: we have a Slack workspace for the group, which is our main channel
+for communication. You will find links to the lab meeting schedule and zoom call
+pinned in the #general channel. Ask another team member for an invite link!
+
+- **Meetings**: save these time slots for obligatory participation:
+
+    -   weekly CCTB seminar, Wednesdays 11:00-12:00
+    -   weekly EcoMods lab meeting, Thursdays 13:30-15:00
+
+- **IT questions:** Theo can help with all research-related software enquiries.
+For hardware issues, you can contact Tomi Balen.
+
+We hope that this document helps you to learn more about how to do
+Ecological Modeling group and how to navigate life at BIOB. If you have
+any questions, you can come by our offices or send us an email any time.
+
+## What you can find in this booklet
+
+You'll find information about the following topics:
+
+-   **Programming tools** in Chapter \@ref(programming-tools)
+
+-   **IT infrastructure** in Chapter \@ref(it-infrastructure)
+
+-   **Process based models** in Chapter \@ref(process-based-models)
+
+-   **Computational methods** in Chapter \@ref(computational-methods)
+
+-   **Project management** in Chapter \@ref(project-management)
+
+-   **Writing & Publishing** in Chapter \@ref(writing-publishing)
+
