@@ -70,6 +70,10 @@ The very first things you should do before starting your work are:
 -   **IT questions:** if you ever run into any IT-related problems that
     you cannot solve alone, post it in the Mattermost IT channel.
 
+-   **University Library:** before using the services of the ULB (Universitäts
+un Landesbibliothek Bonn), you will need to get yourself a library ID card (Bibliothekausweis) and a user account, which are not automatically created upon
+joining the University. The procedure is detailed on the [ULB website](https://www.ulb.uni-bonn.de/de/nutzung-und-ausleihe/ausweis-konto).
+
 We hope that this document helps you to learn more about how to do
 Ecological Modeling and how to navigate life at the CCTB. If you have
 any questions, you can come by our offices or send us an email any time.
