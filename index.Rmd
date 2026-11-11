@@ -82,35 +82,37 @@ the appropriate part.
 
 ## Induction
 
+![](docs/booklet_pictures/reaction_gifs/room_for_more.gif){width="339"}
+
 Welcome to the group! We hope you have a great time with us and that
 your experience in your lab will be the opportunity to develop your
 academic skills and explore exciting research!
 
-Here are the things you should be upon starting your projects:
+Here are some things you should consider upon joining us:
 
-- **Keys**: our lab is hosted in the old NEES institute, [Venusbergweg
-  22](https://www.openstreetmap.org/way/406460211), at the edge of the
-  Botanische Gärten. Access to the building and other facilities of the
-  institute is managed through transponders, which you must obtain in
-  person from Elke Friesecke at the main building of the Nees-Institut
-  ([Meckenheimer Allee
+- **🔑 Keys**: our lab is hosted in the old NEES institute,
+  [Venusbergweg 22](https://www.openstreetmap.org/way/406460211), at the
+  edge of the Botanische Gärten. Access to the building and other
+  facilities of the institute is managed through transponders, which you
+  must obtain in person from Elke Friesecke at the main building of the
+  Nees-Institut ([Meckenheimer Allee
   170](https://www.openstreetmap.org/way/149556476)). You will need to
   return the transponders upon leaving.
 
-- **Slack**: we have a Slack workspace for the group, which is our main
-  channel for communication. You will find links to the lab meeting
+- **🔘 Slack**: we have a Slack workspace for the group, which is our
+  main channel for communication. You will find links to the lab meeting
   schedule and zoom call pinned in the #general channel. Ask another
   team member for an invite link!
 
-- **Whatsapp**: we have a Whatsapp convo for instant communication
+- **🗨️ Whatsapp**: we have a Whatsapp convo for instant communication
   (mostly socials). Ask a team member for an invite if you'd like to
   join.
 
-- **Calendar**: We keep a Google Calendar to pin and share relevant
+- **📆 Calendar**: We keep a Google Calendar to pin and share relevant
   events. If you'd like to get access, send a google account address to
   Theo.
 
-- **Meetings**: save these time slots for regular meetings:
+- **👥 Meetings**: save these time slots for regular meetings:
 
   - Weekly Ecomod lab meeting, Mondays 17:00-18:00.
   - NEES seminar (jointly with Prof. Max Weigend's group) Tuesdays
@@ -121,21 +123,23 @@ The schedule for the lab meetings is available
 It is also possible to join online, the zoom link is pinned in the
 Slack's general channel.
 
-- **IT questions:** Theo can help with all research-related software
-  enquiries. For hardware issues, the responsible person for BIOB is Tomislav Balen. In particular, for security reasons our printer can only be accessed
-  with specific drivers, which are to be installed by Tomi.
+- **🤖 IT questions:** Theo can help with all research-related software
+  enquiries. For hardware issues, the responsible person for BIOB is
+  Tomislav Balen. In particular, for security reasons our printer can
+  only be accessed with specific drivers, which are to be installed by
+  Tomi.
 
-- **University Library:** before using the services of the ULB
-  (Universitäts und Landesbibliothek Bonn), you will need to get yourself
-  a library ID card (Bibliothekausweis) and a user account, which are
-  not automatically created upon joining the University. The procedure
-  is detailed on the [ULB
+- **📖 University Library:** before using the services of the ULB
+  (Universitäts und Landesbibliothek Bonn), you will need to get
+  yourself a library ID card (Bibliothekausweis) and a user account,
+  which are not automatically created upon joining the University. The
+  procedure is detailed on the [ULB
   website](https://www.ulb.uni-bonn.de/de/nutzung-und-ausleihe/ausweis-konto).
-  You will need to submit a form, get the Uni Bonn app and after a few days you
-  will receive instructions on how to link your Uni-ID into the app. Finally,
-  you will need to head to the main ULB building to show a piece of ID, proof of
-  residence and proof of affiliation with Uni Bonn (enrolment certificate or
-  work contract).
+  You will need to submit a form, get the Uni Bonn app and after a few
+  days you will receive instructions on how to link your Uni-ID into the
+  app. Finally, you will need to head to the main ULB building to show a
+  piece of ID, proof of residence and proof of affiliation with Uni Bonn
+  (enrolment certificate or work contract).
 
 ## What you can find in this booklet
 
