@@ -5,25 +5,25 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>EcoMods Booklet</title>
-  <meta name="description" content="This is HowTo of the CCTB Würzburg EcoMods members." />
-  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
+  <meta name="description" content="Guides and tutorials for members of the Ecomod research group at the University of Bonn" />
+  <meta name="generator" content="bookdown 0.48 and GitBook 2.6.7" />
 
   <meta property="og:title" content="EcoMods Booklet" />
   <meta property="og:type" content="book" />
-  <meta property="og:image" content="https://cctb-ecomods.github.io/Ecomods-Booklet/booklet_pictures/workingGroup_2021.jpg" />
-  <meta property="og:description" content="This is HowTo of the CCTB Würzburg EcoMods members." />
-  <meta name="github-repo" content="CCTB-Ecomods/Ecomods-Booklet" />
+  
+  <meta property="og:description" content="Guides and tutorials for members of the Ecomod research group at the University of Bonn" />
+  <meta name="github-repo" content="biob-ecomod/ecomods_booklet" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="EcoMods Booklet" />
   
-  <meta name="twitter:description" content="This is HowTo of the CCTB Würzburg EcoMods members." />
-  <meta name="twitter:image" content="https://cctb-ecomods.github.io/Ecomods-Booklet/booklet_pictures/workingGroup_2021.jpg" />
+  <meta name="twitter:description" content="Guides and tutorials for members of the Ecomod research group at the University of Bonn" />
+  
 
 <meta name="author" content="The EcoMods, Würzburg" />
 
 
-<meta name="date" content="2022-06-09" />
+<meta name="date" content="2026-11-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -49,25 +49,25 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -87,13 +87,13 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -106,7 +106,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -120,6 +120,32 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -137,64 +163,76 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="./">EcoMods Booklet</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Hello and welcome to the EcoMods working group!</a><ul>
-<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#very-first-things"><i class="fa fa-check"></i><b>1.1</b> Very first things</a></li>
-<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#what-you-can-find-in-this-booklet"><i class="fa fa-check"></i><b>1.2</b> What you can find in this booklet</a></li>
-<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#how-to-edit-this-booklet"><i class="fa fa-check"></i><b>1.3</b> How to edit this booklet</a></li>
-<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#missing-sections-and-todos-within-this-booklet"><i class="fa fa-check"></i><b>1.4</b> Missing sections and TODOs within this booklet</a><ul>
-<li class="chapter" data-level="1.4.1" data-path="index.html"><a href="index.html#todos-juliano"><i class="fa fa-check"></i><b>1.4.1</b> TODOs Juliano</a></li>
-<li class="chapter" data-level="1.4.2" data-path="index.html"><a href="index.html#todos-anne"><i class="fa fa-check"></i><b>1.4.2</b> TODOs Anne</a></li>
-<li class="chapter" data-level="1.4.3" data-path="index.html"><a href="index.html#section"><i class="fa fa-check"></i><b>1.4.3</b> </a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> About this book</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#acknowldegements-and-licensing"><i class="fa fa-check"></i><b>1.1</b> Acknowldegements and licensing</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#contributing-to-this-book"><i class="fa fa-check"></i><b>1.2</b> Contributing to this book</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#missing-sections-and-todos-within-this-booklet"><i class="fa fa-check"></i><b>1.3</b> Missing sections and TODOs within this booklet</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#people"><i class="fa fa-check"></i><b>1.4</b> People</a></li>
+<li class="chapter" data-level="1.5" data-path="index.html"><a href="index.html#induction"><i class="fa fa-check"></i><b>1.5</b> Induction</a></li>
+<li class="chapter" data-level="1.6" data-path="index.html"><a href="index.html#what-you-can-find-in-this-booklet"><i class="fa fa-check"></i><b>1.6</b> What you can find in this booklet</a></li>
 </ul></li>
-</ul></li>
-<li class="chapter" data-level="2" data-path="programming-tools.html"><a href="programming-tools.html"><i class="fa fa-check"></i><b>2</b> Programming tools</a><ul>
-<li class="chapter" data-level="2.1" data-path="programming-tools.html"><a href="programming-tools.html#basic-tools-and-languages"><i class="fa fa-check"></i><b>2.1</b> Basic tools and languages</a><ul>
+<li class="chapter" data-level="2" data-path="programming-tools.html"><a href="programming-tools.html"><i class="fa fa-check"></i><b>2</b> Programming tools</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="programming-tools.html"><a href="programming-tools.html#basic-tools-and-languages"><i class="fa fa-check"></i><b>2.1</b> Basic tools and languages</a>
+<ul>
 <li class="chapter" data-level="2.1.1" data-path="programming-tools.html"><a href="programming-tools.html#r"><i class="fa fa-check"></i><b>2.1.1</b> R</a></li>
 <li class="chapter" data-level="2.1.2" data-path="programming-tools.html"><a href="programming-tools.html#julia-the-language"><i class="fa fa-check"></i><b>2.1.2</b> Julia, the language</a></li>
 <li class="chapter" data-level="2.1.3" data-path="programming-tools.html"><a href="programming-tools.html#version-control"><i class="fa fa-check"></i><b>2.1.3</b> Version control</a></li>
 <li class="chapter" data-level="2.1.4" data-path="programming-tools.html"><a href="programming-tools.html#bash-commands"><i class="fa fa-check"></i><b>2.1.4</b> Bash commands</a></li>
 </ul></li>
-<li class="chapter" data-level="2.2" data-path="programming-tools.html"><a href="programming-tools.html#advanced-tools"><i class="fa fa-check"></i><b>2.2</b> Advanced tools</a><ul>
+<li class="chapter" data-level="2.2" data-path="programming-tools.html"><a href="programming-tools.html#advanced-tools"><i class="fa fa-check"></i><b>2.2</b> Advanced tools</a>
+<ul>
 <li class="chapter" data-level="2.2.1" data-path="programming-tools.html"><a href="programming-tools.html#singularity"><i class="fa fa-check"></i><b>2.2.1</b> Singularity</a></li>
 <li class="chapter" data-level="2.2.2" data-path="programming-tools.html"><a href="programming-tools.html#emacs-vim-and-spacemacs"><i class="fa fa-check"></i><b>2.2.2</b> EMACS, Vim, and Spacemacs</a></li>
 <li class="chapter" data-level="2.2.3" data-path="programming-tools.html"><a href="programming-tools.html#regex"><i class="fa fa-check"></i><b>2.2.3</b> Regex</a></li>
 <li class="chapter" data-level="2.2.4" data-path="programming-tools.html"><a href="programming-tools.html#backup-and-storage-of-data-and-code"><i class="fa fa-check"></i><b>2.2.4</b> Backup and Storage of Data and Code</a></li>
 </ul></li>
-<li class="chapter" data-level="2.3" data-path="programming-tools.html"><a href="programming-tools.html#best-practices"><i class="fa fa-check"></i><b>2.3</b> Best practices</a><ul>
+<li class="chapter" data-level="2.3" data-path="programming-tools.html"><a href="programming-tools.html#best-practices"><i class="fa fa-check"></i><b>2.3</b> Best practices</a>
+<ul>
 <li class="chapter" data-level="2.3.1" data-path="programming-tools.html"><a href="programming-tools.html#best-modeling-and-programming-practices"><i class="fa fa-check"></i><b>2.3.1</b> Best Modeling and Programming practices</a></li>
 <li class="chapter" data-level="2.3.2" data-path="programming-tools.html"><a href="programming-tools.html#blog-post-series-on-software-development"><i class="fa fa-check"></i><b>2.3.2</b> Blog post series on software development</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="it-infrastructure.html"><a href="it-infrastructure.html"><i class="fa fa-check"></i><b>3</b> IT infrastructure</a><ul>
-<li class="chapter" data-level="3.1" data-path="it-infrastructure.html"><a href="it-infrastructure.html#ssh"><i class="fa fa-check"></i><b>3.1</b> SSH</a><ul>
+<li class="chapter" data-level="3" data-path="it-infrastructure.html"><a href="it-infrastructure.html"><i class="fa fa-check"></i><b>3</b> IT infrastructure</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="it-infrastructure.html"><a href="it-infrastructure.html#ssh"><i class="fa fa-check"></i><b>3.1</b> SSH</a>
+<ul>
 <li class="chapter" data-level="3.1.1" data-path="it-infrastructure.html"><a href="it-infrastructure.html#connect-with-ssh"><i class="fa fa-check"></i><b>3.1.1</b> Connect with SSH</a></li>
 <li class="chapter" data-level="3.1.2" data-path="it-infrastructure.html"><a href="it-infrastructure.html#using-ssh-to-authenticate-your-github-account-todo-move-to-github-section-or-set-links"><i class="fa fa-check"></i><b>3.1.2</b> Using SSH to authenticate your Github account TODO: move to Github section OR set links</a></li>
 <li class="chapter" data-level="3.1.3" data-path="it-infrastructure.html"><a href="it-infrastructure.html#ssh-alias"><i class="fa fa-check"></i><b>3.1.3</b> ssh alias</a></li>
 </ul></li>
-<li class="chapter" data-level="3.2" data-path="it-infrastructure.html"><a href="it-infrastructure.html#using-hpc-julia"><i class="fa fa-check"></i><b>3.2</b> Using HPC Julia</a><ul>
+<li class="chapter" data-level="3.2" data-path="it-infrastructure.html"><a href="it-infrastructure.html#using-hpc-julia"><i class="fa fa-check"></i><b>3.2</b> Using HPC Julia</a>
+<ul>
 <li class="chapter" data-level="3.2.1" data-path="it-infrastructure.html"><a href="it-infrastructure.html#calculate-you-co2-emission-from-hpc"><i class="fa fa-check"></i><b>3.2.1</b> Calculate you CO2 Emission from HPC</a></li>
 </ul></li>
 <li class="chapter" data-level="3.3" data-path="it-infrastructure.html"><a href="it-infrastructure.html#using-slurm"><i class="fa fa-check"></i><b>3.3</b> Using slurm</a></li>
-<li class="chapter" data-level="3.4" data-path="it-infrastructure.html"><a href="it-infrastructure.html#using-cctb-server-gaias-and-planets"><i class="fa fa-check"></i><b>3.4</b> Using CCTB Server = gaias and planets</a><ul>
+<li class="chapter" data-level="3.4" data-path="it-infrastructure.html"><a href="it-infrastructure.html#using-cctb-server-gaias-and-planets"><i class="fa fa-check"></i><b>3.4</b> Using CCTB Server = gaias and planets</a>
+<ul>
 <li class="chapter" data-level="3.4.1" data-path="it-infrastructure.html"><a href="it-infrastructure.html#opening-an-rstudio-server-on-the-planets"><i class="fa fa-check"></i><b>3.4.1</b> Opening an Rstudio server on the planets</a></li>
 </ul></li>
 <li class="chapter" data-level="3.5" data-path="it-infrastructure.html"><a href="it-infrastructure.html#x2go"><i class="fa fa-check"></i><b>3.5</b> X2GO</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="process-based-models.html"><a href="process-based-models.html"><i class="fa fa-check"></i><b>4</b> Process-based models</a><ul>
-<li class="chapter" data-level="4.1" data-path="process-based-models.html"><a href="process-based-models.html#ecomods-models"><i class="fa fa-check"></i><b>4.1</b> EcoMods models</a><ul>
+<li class="chapter" data-level="4" data-path="process-based-models.html"><a href="process-based-models.html"><i class="fa fa-check"></i><b>4</b> Process-based models</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="process-based-models.html"><a href="process-based-models.html#ecomods-models"><i class="fa fa-check"></i><b>4.1</b> EcoMods models</a>
+<ul>
 <li class="chapter" data-level="4.1.1" data-path="process-based-models.html"><a href="process-based-models.html#gemm"><i class="fa fa-check"></i><b>4.1.1</b> GeMM</a></li>
 <li class="chapter" data-level="4.1.2" data-path="process-based-models.html"><a href="process-based-models.html#mgm"><i class="fa fa-check"></i><b>4.1.2</b> MGM</a></li>
 <li class="chapter" data-level="4.1.3" data-path="process-based-models.html"><a href="process-based-models.html#metarange"><i class="fa fa-check"></i><b>4.1.3</b> metaRange</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="computational-methods.html"><a href="computational-methods.html"><i class="fa fa-check"></i><b>5</b> Computational methods</a><ul>
-<li class="chapter" data-level="5.1" data-path="computational-methods.html"><a href="computational-methods.html#sensitivity-analyses"><i class="fa fa-check"></i><b>5.1</b> Sensitivity Analyses</a><ul>
+<li class="chapter" data-level="5" data-path="computational-methods.html"><a href="computational-methods.html"><i class="fa fa-check"></i><b>5</b> Computational methods</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="computational-methods.html"><a href="computational-methods.html#sensitivity-analyses"><i class="fa fa-check"></i><b>5.1</b> Sensitivity Analyses</a>
+<ul>
 <li class="chapter" data-level="5.1.1" data-path="computational-methods.html"><a href="computational-methods.html#overview"><i class="fa fa-check"></i><b>5.1.1</b> Overview</a></li>
 <li class="chapter" data-level="5.1.2" data-path="computational-methods.html"><a href="computational-methods.html#local"><i class="fa fa-check"></i><b>5.1.2</b> Local</a></li>
 <li class="chapter" data-level="5.1.3" data-path="computational-methods.html"><a href="computational-methods.html#global"><i class="fa fa-check"></i><b>5.1.3</b> Global</a></li>
 </ul></li>
 <li class="chapter" data-level="5.2" data-path="computational-methods.html"><a href="computational-methods.html#virtual-ecologist"><i class="fa fa-check"></i><b>5.2</b> Virtual ecologist</a></li>
-<li class="chapter" data-level="5.3" data-path="computational-methods.html"><a href="computational-methods.html#parameter-optimization"><i class="fa fa-check"></i><b>5.3</b> Parameter optimization</a><ul>
+<li class="chapter" data-level="5.3" data-path="computational-methods.html"><a href="computational-methods.html#parameter-optimization"><i class="fa fa-check"></i><b>5.3</b> Parameter optimization</a>
+<ul>
 <li class="chapter" data-level="5.3.1" data-path="computational-methods.html"><a href="computational-methods.html#direct-methods"><i class="fa fa-check"></i><b>5.3.1</b> Direct methods</a></li>
 <li class="chapter" data-level="5.3.2" data-path="computational-methods.html"><a href="computational-methods.html#bayesian-calibration"><i class="fa fa-check"></i><b>5.3.2</b> Bayesian Calibration</a></li>
 <li class="chapter" data-level="5.3.3" data-path="computational-methods.html"><a href="computational-methods.html#emulatoren"><i class="fa fa-check"></i><b>5.3.3</b> Emulatoren</a></li>
@@ -206,19 +244,23 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="5.6" data-path="computational-methods.html"><a href="computational-methods.html#functional-analyses"><i class="fa fa-check"></i><b>5.6</b> Functional Analyses</a></li>
 <li class="chapter" data-level="5.7" data-path="computational-methods.html"><a href="computational-methods.html#sdms"><i class="fa fa-check"></i><b>5.7</b> SDMs</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="project-management.html"><a href="project-management.html"><i class="fa fa-check"></i><b>6</b> Project management</a><ul>
+<li class="chapter" data-level="6" data-path="project-management.html"><a href="project-management.html"><i class="fa fa-check"></i><b>6</b> Project management</a>
+<ul>
 <li class="chapter" data-level="6.1" data-path="project-management.html"><a href="project-management.html#computational-notebooks"><i class="fa fa-check"></i><b>6.1</b> Computational Notebooks</a></li>
 <li class="chapter" data-level="6.2" data-path="project-management.html"><a href="project-management.html#excel-based-orga"><i class="fa fa-check"></i><b>6.2</b> Excel-based orga</a></li>
 <li class="chapter" data-level="6.3" data-path="project-management.html"><a href="project-management.html#pomodoro-timer"><i class="fa fa-check"></i><b>6.3</b> Pomodoro timer</a></li>
 <li class="chapter" data-level="6.4" data-path="project-management.html"><a href="project-management.html#asana"><i class="fa fa-check"></i><b>6.4</b> Asana</a></li>
 <li class="chapter" data-level="6.5" data-path="project-management.html"><a href="project-management.html#finishing-a-phd"><i class="fa fa-check"></i><b>6.5</b> Finishing a PhD</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="writing-publishing.html"><a href="writing-publishing.html"><i class="fa fa-check"></i><b>7</b> Writing &amp; Publishing</a><ul>
-<li class="chapter" data-level="7.1" data-path="writing-publishing.html"><a href="writing-publishing.html#tools"><i class="fa fa-check"></i><b>7.1</b> Tools</a><ul>
+<li class="chapter" data-level="7" data-path="writing-publishing.html"><a href="writing-publishing.html"><i class="fa fa-check"></i><b>7</b> Writing &amp; Publishing</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="writing-publishing.html"><a href="writing-publishing.html#tools"><i class="fa fa-check"></i><b>7.1</b> Tools</a>
+<ul>
 <li class="chapter" data-level="7.1.1" data-path="writing-publishing.html"><a href="writing-publishing.html#latex"><i class="fa fa-check"></i><b>7.1.1</b> latex</a></li>
 <li class="chapter" data-level="7.1.2" data-path="writing-publishing.html"><a href="writing-publishing.html#others"><i class="fa fa-check"></i><b>7.1.2</b> Others</a></li>
 </ul></li>
-<li class="chapter" data-level="7.2" data-path="writing-publishing.html"><a href="writing-publishing.html#writing-papers"><i class="fa fa-check"></i><b>7.2</b> Writing Papers</a><ul>
+<li class="chapter" data-level="7.2" data-path="writing-publishing.html"><a href="writing-publishing.html#writing-papers"><i class="fa fa-check"></i><b>7.2</b> Writing Papers</a>
+<ul>
 <li class="chapter" data-level="7.2.1" data-path="writing-publishing.html"><a href="writing-publishing.html#structuring-the-manuscript"><i class="fa fa-check"></i><b>7.2.1</b> Structuring the manuscript</a></li>
 <li class="chapter" data-level="7.2.2" data-path="writing-publishing.html"><a href="writing-publishing.html#language-tips"><i class="fa fa-check"></i><b>7.2.2</b> Language Tips</a></li>
 </ul></li>
@@ -249,82 +291,35 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="header">
 <h1 class="title">EcoMods Booklet</h1>
 <p class="author"><em>The EcoMods, Würzburg</em></p>
-<p class="date"><em>2022-06-09</em></p>
+<p class="date"><em>2026-11-11</em></p>
 </div>
-<div id="hello-and-welcome-to-the-ecomods-working-group" class="section level1 hasAnchor">
-<h1><span class="header-section-number">Chapter 1</span> Hello and welcome to the EcoMods working group!<a href="index.html#hello-and-welcome-to-the-ecomods-working-group" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div class="figure"><span style="display:block;" id="fig:EcoMods"></span>
-<img src="booklet_pictures/workingGroup_2021.jpg" alt="The EcoMods in 2020"  />
-<p class="caption">
-Figure 1.1: The EcoMods in 2020
-</p>
+<div id="about-this-book" class="section level1 hasAnchor" number="1">
+<h1><span class="header-section-number">Chapter 1</span> About this book<a href="index.html#about-this-book" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Hello and welcome to the EcoMods working group!</p>
+<p>In this document, you will (hopefully) find everything you need for your course / internship / thesis with us.</p>
+<p>The book is meant to be a live document, and will be updated
+continuously. As you browse through sections, you will encounter empty
+or incomplete sections. You’re welcome to ask for sections to be added,
+updated, or even better, improve it yourself! See section
+<a href="#contributing"><strong>??</strong></a>.</p>
+<div id="acknowldegements-and-licensing" class="section level2 hasAnchor" number="1.1">
+<h2><span class="header-section-number">1.1</span> Acknowldegements and licensing<a href="index.html#acknowldegements-and-licensing" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This manual is an update of a manual of the <a href="CCTB-Ecomods/Ecomods-Booklet">original
+Ecomods</a> at the University of Würzburg.
+Huge thanks to them for assembling this knowledge base!</p>
+<p>The manual is published under the terms of the <a href="https://github.com/biob-ecomod/ecomods_booklet/blob/main/LICENSE">MIT
+License</a>,
+which means you can freely copy, modify and share its contents as long
+as you acknowledge the original work and provide a copyright notice and
+copy in the license in all derived works.</p>
 </div>
-<p>In this document, you will (hopefully) find everything you need for your
-course / internship / thesis with us.</p>
-<div id="very-first-things" class="section level2 hasAnchor">
-<h2><span class="header-section-number">1.1</span> Very first things<a href="index.html#very-first-things" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>The very first things you should do before starting your work are:</p>
-<ul>
-<li><p><strong>Mailinglists</strong>: subscribe to the CCTB and EcoMods <a href="https://lists.uni-wuerzburg.de">mailing
-lists</a>. Select CCTB and ecomod-cctb
-and register using your email address. These lists are used for
-announcements of talks or other important events.</p></li>
-<li><p><strong>Account</strong>: get an account in the CCTB server. Our IT support,
-Patrick Haag (patrick.haag(at)uni-wuerzburg.de), can do this for
-you.</p></li>
-<li><p><strong>Keys</strong>: get access to the building. Your student ID card needs to
-be unlocked to be able to use it as a key for all doors. Patrick
-will also help you with this.</p></li>
-<li><p><strong>Mattermost</strong>: remind your supervisor to send you an invitation
-link for our
-<a href="https://cctb-intern.biologie.uni-wuerzburg.de">Mattermost</a>. We use
-Mattermost for CCTB-wide communication. Be aware that the
-certificate for enabling https is self-signed. This means when you
-visit the Mattermost site for the first time, you will have to add
-it as an exception. Mattermost contains channels for different
-purposes like organizational stuff, lunch planning, working groups,
-etc. It is very similar to Slack, if you have used that before.
-There is also a <a href="https://about.mattermost.com/download/#mattermostApps">Desktop
-App</a>.</p></li>
-<li><p><strong>Meetings</strong>: save these time slots for obligatory participation:</p>
-<ul>
-<li>weekly CCTB seminar, Wednesdays 11:00-12:00</li>
-<li>weekly EcoMods lab meeting, Thursdays 13:30-15:00</li>
-</ul></li>
-<li><p><strong>Gathertown</strong>: we also have a CCTB Gathertown which is basically a
-virtual office space. It was used a lot during home office times,
-now, not as much anymore. But if you post on Mattermost that you
-would like to meet for a virtual coffee break, people will show up!
-You’ll find the link in the header of the town-square channel on
-Mattermost</p></li>
-<li><p><strong>IT questions:</strong> if you ever run into any IT-related problems that
-you cannot solve alone, post it in the Mattermost IT channel.</p></li>
-</ul>
-<p>We hope that this document helps you to learn more about how to do
-Ecological Modeling and how to navigate life at the CCTB. If you have
-any questions, you can come by our offices or send us an email any time.</p>
-</div>
-<div id="what-you-can-find-in-this-booklet" class="section level2 hasAnchor">
-<h2><span class="header-section-number">1.2</span> What you can find in this booklet<a href="index.html#what-you-can-find-in-this-booklet" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>You’ll find information about the following topics:</p>
-<ul>
-<li><p><strong>Programming tools</strong> in Chapter <a href="programming-tools.html#programming-tools">2</a></p></li>
-<li><p><strong>IT infrastructure</strong> in Chapter <a href="it-infrastructure.html#it-infrastructure">3</a></p></li>
-<li><p><strong>Process based models</strong> in Chapter <a href="process-based-models.html#process-based-models">4</a></p></li>
-<li><p><strong>Computational methods</strong> in Chapter <a href="computational-methods.html#computational-methods">5</a></p></li>
-<li><p><strong>Project management</strong> in Chapter <a href="project-management.html#project-management">6</a></p></li>
-<li><p><strong>Writing &amp; Publishing</strong> in Chapter <a href="writing-publishing.html#writing-publishing">7</a></p></li>
-</ul>
-<p>We also gladly accept any suggestions on how to improve this guide, so
-let us (Figure <a href="index.html#fig:EcoMods">1.1</a>) know if you feel that anything is
-missing! This document is under constant construction, so don’t wonder
-about missing parts. :)</p>
-</div>
-<div id="how-to-edit-this-booklet" class="section level2 hasAnchor">
-<h2><span class="header-section-number">1.3</span> How to edit this booklet<a href="index.html#how-to-edit-this-booklet" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>This booklet is written as bookdown document. This means, that it
-consists of several R Markdown files. To learn R markdown see section
-<a href="programming-tools.html#rmd">2.1.1.4</a>. The booklet is hosted on
+<div id="contributing-to-this-book" class="section level2 hasAnchor" number="1.2">
+<h2><span class="header-section-number">1.2</span> Contributing to this book<a href="index.html#contributing-to-this-book" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>We gladly accept any suggestions on how to improve this guide, so let us
+know if you feel that anything is missing!</p>
+<p>This booklet is a bookdown document. This means, that it consists of
+several R Markdown files. To learn R markdown see section <a href="programming-tools.html#rmd">2.1.1.4</a>.
+The booklet is hosted on
 <a href="https://github.com/CCTB-Ecomods/Ecomods-Booklet">GitHub</a> (see section
 <a href="programming-tools.html#version-control">2.1.3</a>.</p>
 <ol style="list-style-type: decimal">
@@ -342,29 +337,82 @@ on editing.</p></li>
 organized way. Check text for typos and readability and be sure that a
 beginner can understand it.</p>
 </div>
-<div id="missing-sections-and-todos-within-this-booklet" class="section level2 hasAnchor">
-<h2><span class="header-section-number">1.4</span> Missing sections and TODOs within this booklet<a href="index.html#missing-sections-and-todos-within-this-booklet" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="missing-sections-and-todos-within-this-booklet" class="section level2 hasAnchor" number="1.3">
+<h2><span class="header-section-number">1.3</span> Missing sections and TODOs within this booklet<a href="index.html#missing-sections-and-todos-within-this-booklet" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>If you find any missing topics, collect them here or write a <em>TODO</em> at
 the appropriate part.</p>
-<div id="todos-juliano" class="section level3 hasAnchor">
-<h3><span class="header-section-number">1.4.1</span> TODOs Juliano<a href="index.html#todos-juliano" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><em>Juliano</em>, do you have scripts for these points below that I could link?</p>
-<p>Playing with R Codes - Intro R - First Models - Intro Ecological
-Functions and Simulations Exercise - First Functions and Simulations -
-Shiny</p>
 </div>
-<div id="todos-anne" class="section level3 hasAnchor">
-<h3><span class="header-section-number">1.4.2</span> TODOs Anne<a href="index.html#todos-anne" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="people" class="section level2 hasAnchor" number="1.4">
+<h2><span class="header-section-number">1.4</span> People<a href="index.html#people" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>[TODO]</p>
+</div>
+<div id="induction" class="section level2 hasAnchor" number="1.5">
+<h2><span class="header-section-number">1.5</span> Induction<a href="index.html#induction" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Welcome to the group! We hope you have a great time with us and that
+your experience in your lab will be the opportunity to develop your
+academic skills and explore exciting research!</p>
+<p>Here are some things you should consider upon joining us:</p>
 <ul>
-<li>improve sections <a href="computational-methods.html#sensitivity-analyses">5.1</a> and
-<a href="computational-methods.html#parameter-optimization">5.3</a></li>
-<li>add more language tips <a href="writing-publishing.html#language-tips">7.2.2</a></li>
+<li><p><strong>🔑 Keys</strong>: our lab is hosted in the old NEES institute,
+<a href="https://www.openstreetmap.org/way/406460211">Venusbergweg 22</a>, at the
+edge of the Botanische Gärten. Access to the building and other
+facilities of the institute is managed through transponders, which you
+must obtain in person from Elke Friesecke at the main building of the
+Nees-Institut (<a href="https://www.openstreetmap.org/way/149556476">Meckenheimer Allee
+170</a>). You will need to
+return the transponders upon leaving.</p></li>
+<li><p><strong>🔘 Slack</strong>: we have a Slack workspace for the group, which is our
+main channel for communication. You will find links to the lab meeting
+schedule and zoom call pinned in the #general channel. Ask another
+team member for an invite link!</p></li>
+<li><p><strong>🗨️ Whatsapp</strong>: we have a Whatsapp convo for instant communication
+(mostly socials). Ask a team member for an invite if you’d like to
+join.</p></li>
+<li><p><strong>📆 Calendar</strong>: We keep a Google Calendar to pin and share relevant
+events. If you’d like to get access, send a google account address to
+Theo.</p></li>
+<li><p><strong>👥 Meetings</strong>: save these time slots for regular meetings:</p>
+<ul>
+<li>Weekly Ecomod lab meeting, Mondays 17:00-18:00.</li>
+<li>NEES seminar (jointly with Prof. Max Weigend’s group) Tuesdays
+16:30-17:30</li>
+</ul></li>
+</ul>
+<p>The schedule for the lab meetings is available
+<a href="https://docs.google.com/document/d/1p0EdFmez05UcZ4QUoacWM9PfAQuAKpg7XM1HtXeEdRU/edit?usp=sharing">here</a>.
+It is also possible to join online, the zoom link is pinned in the
+Slack’s general channel.</p>
+<ul>
+<li><p><strong>🤖 IT questions:</strong> Theo can help with all research-related software
+enquiries. For hardware issues, the responsible person for BIOB is
+Tomislav Balen. In particular, for security reasons our printer can
+only be accessed with specific drivers, which are to be installed by
+Tomi.</p></li>
+<li><p><strong>📖 University Library:</strong> before using the services of the ULB
+(Universitäts und Landesbibliothek Bonn), you will need to get
+yourself a library ID card (Bibliothekausweis) and a user account,
+which are not automatically created upon joining the University. The
+procedure is detailed on the <a href="https://www.ulb.uni-bonn.de/de/nutzung-und-ausleihe/ausweis-konto">ULB
+website</a>.
+You will need to submit a form, get the Uni Bonn app and after a few
+days you will receive instructions on how to link your Uni-ID into the
+app. Finally, you will need to head to the main ULB building to show a
+piece of ID, proof of residence and proof of affiliation with Uni Bonn
+(enrolment certificate or work contract).</p></li>
 </ul>
 </div>
-<div id="section" class="section level3">
-<h3><span class="header-section-number">1.4.3</span> </h3>
+<div id="what-you-can-find-in-this-booklet" class="section level2 hasAnchor" number="1.6">
+<h2><span class="header-section-number">1.6</span> What you can find in this booklet<a href="index.html#what-you-can-find-in-this-booklet" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>You’ll find information about the following topics:</p>
+<ul>
+<li><p><strong>Programming tools</strong> in Chapter <a href="programming-tools.html#programming-tools">2</a></p></li>
+<li><p><strong>IT infrastructure</strong> in Chapter <a href="it-infrastructure.html#it-infrastructure">3</a></p></li>
+<li><p><strong>Process based models</strong> in Chapter <a href="process-based-models.html#process-based-models">4</a></p></li>
+<li><p><strong>Computational methods</strong> in Chapter <a href="computational-methods.html#computational-methods">5</a></p></li>
+<li><p><strong>Project management</strong> in Chapter <a href="project-management.html#project-management">6</a></p></li>
+<li><p><strong>Writing &amp; Publishing</strong> in Chapter <a href="writing-publishing.html#writing-publishing">7</a></p></li>
+</ul>
 
-</div>
 </div>
 </div>
             </section>
@@ -387,42 +435,42 @@ Shiny</p>
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/index.Rmd",
-"text": "Edit"
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": ["_main.pdf", "_main.epub"],
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "subsection"
-}
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": "https://github.com/USERNAME/REPO/edit/BRANCH/index.Rmd",
+    "text": "Edit"
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": ["_main.pdf", "_main.epub"],
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
 });
 });
 </script>

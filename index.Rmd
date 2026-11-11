@@ -6,10 +6,9 @@ site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 url: https://biob-ecomod.github.io/ecomods_booklet
-cover-image: booklet_pictures/workingGroup_2021.jpg
+#cover-image: booklet_pictures/workingGroup_2021.jpg
 description: |
-  Guides and tutorials for members of the Ecomod research group at the University
-  of Bonn
+  Guides and tutorials for members of the Ecomod research group at the University  of Bonn
 link-citations: yes
 github-repo: biob-ecomod/ecomods_booklet
 editor_options: 
@@ -21,8 +20,7 @@ editor_options:
 
 Hello and welcome to the EcoMods working group!
 
-In this document, you will (hopefully) find everything you need for your
-course / internship / thesis with us.
+In this document, you will (hopefully) find everything you need for your course / internship / thesis with us.
 
 The book is meant to be a live document, and will be updated
 continuously. As you browse through sections, you will encounter empty
@@ -81,8 +79,6 @@ the appropriate part.
 [TODO]
 
 ## Induction
-
-![](docs/booklet_pictures/reaction_gifs/room_for_more.gif){width="339"}
 
 Welcome to the group! We hope you have a great time with us and that
 your experience in your lab will be the opportunity to develop your

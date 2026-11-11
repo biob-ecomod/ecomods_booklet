@@ -5,25 +5,25 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 4 Process-based models | EcoMods Booklet</title>
-  <meta name="description" content="This is HowTo of the CCTB Würzburg EcoMods members." />
-  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
+  <meta name="description" content="Guides and tutorials for members of the Ecomod research group at the University of Bonn" />
+  <meta name="generator" content="bookdown 0.48 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 4 Process-based models | EcoMods Booklet" />
   <meta property="og:type" content="book" />
-  <meta property="og:image" content="https://cctb-ecomods.github.io/Ecomods-Booklet/booklet_pictures/workingGroup_2021.jpg" />
-  <meta property="og:description" content="This is HowTo of the CCTB Würzburg EcoMods members." />
-  <meta name="github-repo" content="CCTB-Ecomods/Ecomods-Booklet" />
+  
+  <meta property="og:description" content="Guides and tutorials for members of the Ecomod research group at the University of Bonn" />
+  <meta name="github-repo" content="biob-ecomod/ecomods_booklet" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Chapter 4 Process-based models | EcoMods Booklet" />
   
-  <meta name="twitter:description" content="This is HowTo of the CCTB Würzburg EcoMods members." />
-  <meta name="twitter:image" content="https://cctb-ecomods.github.io/Ecomods-Booklet/booklet_pictures/workingGroup_2021.jpg" />
+  <meta name="twitter:description" content="Guides and tutorials for members of the Ecomod research group at the University of Bonn" />
+  
 
 <meta name="author" content="The EcoMods, Würzburg" />
 
 
-<meta name="date" content="2022-06-09" />
+<meta name="date" content="2026-11-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -49,25 +49,25 @@
 
 
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -87,13 +87,13 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
 code span.at { color: #7d9029; } /* Attribute */
 code span.bn { color: #40a070; } /* BaseN */
-code span.bu { } /* BuiltIn */
+code span.bu { color: #008000; } /* BuiltIn */
 code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
 code span.ch { color: #4070a0; } /* Char */
 code span.cn { color: #880000; } /* Constant */
@@ -106,7 +106,7 @@ code span.er { color: #ff0000; font-weight: bold; } /* Error */
 code span.ex { } /* Extension */
 code span.fl { color: #40a070; } /* Float */
 code span.fu { color: #06287e; } /* Function */
-code span.im { } /* Import */
+code span.im { color: #008000; font-weight: bold; } /* Import */
 code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
 code span.kw { color: #007020; font-weight: bold; } /* Keyword */
 code span.op { color: #666666; } /* Operator */
@@ -120,6 +120,32 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -137,64 +163,76 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><a href="./">EcoMods Booklet</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Hello and welcome to the EcoMods working group!</a><ul>
-<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#very-first-things"><i class="fa fa-check"></i><b>1.1</b> Very first things</a></li>
-<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#what-you-can-find-in-this-booklet"><i class="fa fa-check"></i><b>1.2</b> What you can find in this booklet</a></li>
-<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#how-to-edit-this-booklet"><i class="fa fa-check"></i><b>1.3</b> How to edit this booklet</a></li>
-<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#missing-sections-and-todos-within-this-booklet"><i class="fa fa-check"></i><b>1.4</b> Missing sections and TODOs within this booklet</a><ul>
-<li class="chapter" data-level="1.4.1" data-path="index.html"><a href="index.html#todos-juliano"><i class="fa fa-check"></i><b>1.4.1</b> TODOs Juliano</a></li>
-<li class="chapter" data-level="1.4.2" data-path="index.html"><a href="index.html#todos-anne"><i class="fa fa-check"></i><b>1.4.2</b> TODOs Anne</a></li>
-<li class="chapter" data-level="1.4.3" data-path="index.html"><a href="index.html#section"><i class="fa fa-check"></i><b>1.4.3</b> </a></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> About this book</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#acknowldegements-and-licensing"><i class="fa fa-check"></i><b>1.1</b> Acknowldegements and licensing</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#contributing-to-this-book"><i class="fa fa-check"></i><b>1.2</b> Contributing to this book</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#missing-sections-and-todos-within-this-booklet"><i class="fa fa-check"></i><b>1.3</b> Missing sections and TODOs within this booklet</a></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#people"><i class="fa fa-check"></i><b>1.4</b> People</a></li>
+<li class="chapter" data-level="1.5" data-path="index.html"><a href="index.html#induction"><i class="fa fa-check"></i><b>1.5</b> Induction</a></li>
+<li class="chapter" data-level="1.6" data-path="index.html"><a href="index.html#what-you-can-find-in-this-booklet"><i class="fa fa-check"></i><b>1.6</b> What you can find in this booklet</a></li>
 </ul></li>
-</ul></li>
-<li class="chapter" data-level="2" data-path="programming-tools.html"><a href="programming-tools.html"><i class="fa fa-check"></i><b>2</b> Programming tools</a><ul>
-<li class="chapter" data-level="2.1" data-path="programming-tools.html"><a href="programming-tools.html#basic-tools-and-languages"><i class="fa fa-check"></i><b>2.1</b> Basic tools and languages</a><ul>
+<li class="chapter" data-level="2" data-path="programming-tools.html"><a href="programming-tools.html"><i class="fa fa-check"></i><b>2</b> Programming tools</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="programming-tools.html"><a href="programming-tools.html#basic-tools-and-languages"><i class="fa fa-check"></i><b>2.1</b> Basic tools and languages</a>
+<ul>
 <li class="chapter" data-level="2.1.1" data-path="programming-tools.html"><a href="programming-tools.html#r"><i class="fa fa-check"></i><b>2.1.1</b> R</a></li>
 <li class="chapter" data-level="2.1.2" data-path="programming-tools.html"><a href="programming-tools.html#julia-the-language"><i class="fa fa-check"></i><b>2.1.2</b> Julia, the language</a></li>
 <li class="chapter" data-level="2.1.3" data-path="programming-tools.html"><a href="programming-tools.html#version-control"><i class="fa fa-check"></i><b>2.1.3</b> Version control</a></li>
 <li class="chapter" data-level="2.1.4" data-path="programming-tools.html"><a href="programming-tools.html#bash-commands"><i class="fa fa-check"></i><b>2.1.4</b> Bash commands</a></li>
 </ul></li>
-<li class="chapter" data-level="2.2" data-path="programming-tools.html"><a href="programming-tools.html#advanced-tools"><i class="fa fa-check"></i><b>2.2</b> Advanced tools</a><ul>
+<li class="chapter" data-level="2.2" data-path="programming-tools.html"><a href="programming-tools.html#advanced-tools"><i class="fa fa-check"></i><b>2.2</b> Advanced tools</a>
+<ul>
 <li class="chapter" data-level="2.2.1" data-path="programming-tools.html"><a href="programming-tools.html#singularity"><i class="fa fa-check"></i><b>2.2.1</b> Singularity</a></li>
 <li class="chapter" data-level="2.2.2" data-path="programming-tools.html"><a href="programming-tools.html#emacs-vim-and-spacemacs"><i class="fa fa-check"></i><b>2.2.2</b> EMACS, Vim, and Spacemacs</a></li>
 <li class="chapter" data-level="2.2.3" data-path="programming-tools.html"><a href="programming-tools.html#regex"><i class="fa fa-check"></i><b>2.2.3</b> Regex</a></li>
 <li class="chapter" data-level="2.2.4" data-path="programming-tools.html"><a href="programming-tools.html#backup-and-storage-of-data-and-code"><i class="fa fa-check"></i><b>2.2.4</b> Backup and Storage of Data and Code</a></li>
 </ul></li>
-<li class="chapter" data-level="2.3" data-path="programming-tools.html"><a href="programming-tools.html#best-practices"><i class="fa fa-check"></i><b>2.3</b> Best practices</a><ul>
+<li class="chapter" data-level="2.3" data-path="programming-tools.html"><a href="programming-tools.html#best-practices"><i class="fa fa-check"></i><b>2.3</b> Best practices</a>
+<ul>
 <li class="chapter" data-level="2.3.1" data-path="programming-tools.html"><a href="programming-tools.html#best-modeling-and-programming-practices"><i class="fa fa-check"></i><b>2.3.1</b> Best Modeling and Programming practices</a></li>
 <li class="chapter" data-level="2.3.2" data-path="programming-tools.html"><a href="programming-tools.html#blog-post-series-on-software-development"><i class="fa fa-check"></i><b>2.3.2</b> Blog post series on software development</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="it-infrastructure.html"><a href="it-infrastructure.html"><i class="fa fa-check"></i><b>3</b> IT infrastructure</a><ul>
-<li class="chapter" data-level="3.1" data-path="it-infrastructure.html"><a href="it-infrastructure.html#ssh"><i class="fa fa-check"></i><b>3.1</b> SSH</a><ul>
+<li class="chapter" data-level="3" data-path="it-infrastructure.html"><a href="it-infrastructure.html"><i class="fa fa-check"></i><b>3</b> IT infrastructure</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="it-infrastructure.html"><a href="it-infrastructure.html#ssh"><i class="fa fa-check"></i><b>3.1</b> SSH</a>
+<ul>
 <li class="chapter" data-level="3.1.1" data-path="it-infrastructure.html"><a href="it-infrastructure.html#connect-with-ssh"><i class="fa fa-check"></i><b>3.1.1</b> Connect with SSH</a></li>
 <li class="chapter" data-level="3.1.2" data-path="it-infrastructure.html"><a href="it-infrastructure.html#using-ssh-to-authenticate-your-github-account-todo-move-to-github-section-or-set-links"><i class="fa fa-check"></i><b>3.1.2</b> Using SSH to authenticate your Github account TODO: move to Github section OR set links</a></li>
 <li class="chapter" data-level="3.1.3" data-path="it-infrastructure.html"><a href="it-infrastructure.html#ssh-alias"><i class="fa fa-check"></i><b>3.1.3</b> ssh alias</a></li>
 </ul></li>
-<li class="chapter" data-level="3.2" data-path="it-infrastructure.html"><a href="it-infrastructure.html#using-hpc-julia"><i class="fa fa-check"></i><b>3.2</b> Using HPC Julia</a><ul>
+<li class="chapter" data-level="3.2" data-path="it-infrastructure.html"><a href="it-infrastructure.html#using-hpc-julia"><i class="fa fa-check"></i><b>3.2</b> Using HPC Julia</a>
+<ul>
 <li class="chapter" data-level="3.2.1" data-path="it-infrastructure.html"><a href="it-infrastructure.html#calculate-you-co2-emission-from-hpc"><i class="fa fa-check"></i><b>3.2.1</b> Calculate you CO2 Emission from HPC</a></li>
 </ul></li>
 <li class="chapter" data-level="3.3" data-path="it-infrastructure.html"><a href="it-infrastructure.html#using-slurm"><i class="fa fa-check"></i><b>3.3</b> Using slurm</a></li>
-<li class="chapter" data-level="3.4" data-path="it-infrastructure.html"><a href="it-infrastructure.html#using-cctb-server-gaias-and-planets"><i class="fa fa-check"></i><b>3.4</b> Using CCTB Server = gaias and planets</a><ul>
+<li class="chapter" data-level="3.4" data-path="it-infrastructure.html"><a href="it-infrastructure.html#using-cctb-server-gaias-and-planets"><i class="fa fa-check"></i><b>3.4</b> Using CCTB Server = gaias and planets</a>
+<ul>
 <li class="chapter" data-level="3.4.1" data-path="it-infrastructure.html"><a href="it-infrastructure.html#opening-an-rstudio-server-on-the-planets"><i class="fa fa-check"></i><b>3.4.1</b> Opening an Rstudio server on the planets</a></li>
 </ul></li>
 <li class="chapter" data-level="3.5" data-path="it-infrastructure.html"><a href="it-infrastructure.html#x2go"><i class="fa fa-check"></i><b>3.5</b> X2GO</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="process-based-models.html"><a href="process-based-models.html"><i class="fa fa-check"></i><b>4</b> Process-based models</a><ul>
-<li class="chapter" data-level="4.1" data-path="process-based-models.html"><a href="process-based-models.html#ecomods-models"><i class="fa fa-check"></i><b>4.1</b> EcoMods models</a><ul>
+<li class="chapter" data-level="4" data-path="process-based-models.html"><a href="process-based-models.html"><i class="fa fa-check"></i><b>4</b> Process-based models</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="process-based-models.html"><a href="process-based-models.html#ecomods-models"><i class="fa fa-check"></i><b>4.1</b> EcoMods models</a>
+<ul>
 <li class="chapter" data-level="4.1.1" data-path="process-based-models.html"><a href="process-based-models.html#gemm"><i class="fa fa-check"></i><b>4.1.1</b> GeMM</a></li>
 <li class="chapter" data-level="4.1.2" data-path="process-based-models.html"><a href="process-based-models.html#mgm"><i class="fa fa-check"></i><b>4.1.2</b> MGM</a></li>
 <li class="chapter" data-level="4.1.3" data-path="process-based-models.html"><a href="process-based-models.html#metarange"><i class="fa fa-check"></i><b>4.1.3</b> metaRange</a></li>
 </ul></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="computational-methods.html"><a href="computational-methods.html"><i class="fa fa-check"></i><b>5</b> Computational methods</a><ul>
-<li class="chapter" data-level="5.1" data-path="computational-methods.html"><a href="computational-methods.html#sensitivity-analyses"><i class="fa fa-check"></i><b>5.1</b> Sensitivity Analyses</a><ul>
+<li class="chapter" data-level="5" data-path="computational-methods.html"><a href="computational-methods.html"><i class="fa fa-check"></i><b>5</b> Computational methods</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="computational-methods.html"><a href="computational-methods.html#sensitivity-analyses"><i class="fa fa-check"></i><b>5.1</b> Sensitivity Analyses</a>
+<ul>
 <li class="chapter" data-level="5.1.1" data-path="computational-methods.html"><a href="computational-methods.html#overview"><i class="fa fa-check"></i><b>5.1.1</b> Overview</a></li>
 <li class="chapter" data-level="5.1.2" data-path="computational-methods.html"><a href="computational-methods.html#local"><i class="fa fa-check"></i><b>5.1.2</b> Local</a></li>
 <li class="chapter" data-level="5.1.3" data-path="computational-methods.html"><a href="computational-methods.html#global"><i class="fa fa-check"></i><b>5.1.3</b> Global</a></li>
 </ul></li>
 <li class="chapter" data-level="5.2" data-path="computational-methods.html"><a href="computational-methods.html#virtual-ecologist"><i class="fa fa-check"></i><b>5.2</b> Virtual ecologist</a></li>
-<li class="chapter" data-level="5.3" data-path="computational-methods.html"><a href="computational-methods.html#parameter-optimization"><i class="fa fa-check"></i><b>5.3</b> Parameter optimization</a><ul>
+<li class="chapter" data-level="5.3" data-path="computational-methods.html"><a href="computational-methods.html#parameter-optimization"><i class="fa fa-check"></i><b>5.3</b> Parameter optimization</a>
+<ul>
 <li class="chapter" data-level="5.3.1" data-path="computational-methods.html"><a href="computational-methods.html#direct-methods"><i class="fa fa-check"></i><b>5.3.1</b> Direct methods</a></li>
 <li class="chapter" data-level="5.3.2" data-path="computational-methods.html"><a href="computational-methods.html#bayesian-calibration"><i class="fa fa-check"></i><b>5.3.2</b> Bayesian Calibration</a></li>
 <li class="chapter" data-level="5.3.3" data-path="computational-methods.html"><a href="computational-methods.html#emulatoren"><i class="fa fa-check"></i><b>5.3.3</b> Emulatoren</a></li>
@@ -206,19 +244,23 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="5.6" data-path="computational-methods.html"><a href="computational-methods.html#functional-analyses"><i class="fa fa-check"></i><b>5.6</b> Functional Analyses</a></li>
 <li class="chapter" data-level="5.7" data-path="computational-methods.html"><a href="computational-methods.html#sdms"><i class="fa fa-check"></i><b>5.7</b> SDMs</a></li>
 </ul></li>
-<li class="chapter" data-level="6" data-path="project-management.html"><a href="project-management.html"><i class="fa fa-check"></i><b>6</b> Project management</a><ul>
+<li class="chapter" data-level="6" data-path="project-management.html"><a href="project-management.html"><i class="fa fa-check"></i><b>6</b> Project management</a>
+<ul>
 <li class="chapter" data-level="6.1" data-path="project-management.html"><a href="project-management.html#computational-notebooks"><i class="fa fa-check"></i><b>6.1</b> Computational Notebooks</a></li>
 <li class="chapter" data-level="6.2" data-path="project-management.html"><a href="project-management.html#excel-based-orga"><i class="fa fa-check"></i><b>6.2</b> Excel-based orga</a></li>
 <li class="chapter" data-level="6.3" data-path="project-management.html"><a href="project-management.html#pomodoro-timer"><i class="fa fa-check"></i><b>6.3</b> Pomodoro timer</a></li>
 <li class="chapter" data-level="6.4" data-path="project-management.html"><a href="project-management.html#asana"><i class="fa fa-check"></i><b>6.4</b> Asana</a></li>
 <li class="chapter" data-level="6.5" data-path="project-management.html"><a href="project-management.html#finishing-a-phd"><i class="fa fa-check"></i><b>6.5</b> Finishing a PhD</a></li>
 </ul></li>
-<li class="chapter" data-level="7" data-path="writing-publishing.html"><a href="writing-publishing.html"><i class="fa fa-check"></i><b>7</b> Writing &amp; Publishing</a><ul>
-<li class="chapter" data-level="7.1" data-path="writing-publishing.html"><a href="writing-publishing.html#tools"><i class="fa fa-check"></i><b>7.1</b> Tools</a><ul>
+<li class="chapter" data-level="7" data-path="writing-publishing.html"><a href="writing-publishing.html"><i class="fa fa-check"></i><b>7</b> Writing &amp; Publishing</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="writing-publishing.html"><a href="writing-publishing.html#tools"><i class="fa fa-check"></i><b>7.1</b> Tools</a>
+<ul>
 <li class="chapter" data-level="7.1.1" data-path="writing-publishing.html"><a href="writing-publishing.html#latex"><i class="fa fa-check"></i><b>7.1.1</b> latex</a></li>
 <li class="chapter" data-level="7.1.2" data-path="writing-publishing.html"><a href="writing-publishing.html#others"><i class="fa fa-check"></i><b>7.1.2</b> Others</a></li>
 </ul></li>
-<li class="chapter" data-level="7.2" data-path="writing-publishing.html"><a href="writing-publishing.html#writing-papers"><i class="fa fa-check"></i><b>7.2</b> Writing Papers</a><ul>
+<li class="chapter" data-level="7.2" data-path="writing-publishing.html"><a href="writing-publishing.html#writing-papers"><i class="fa fa-check"></i><b>7.2</b> Writing Papers</a>
+<ul>
 <li class="chapter" data-level="7.2.1" data-path="writing-publishing.html"><a href="writing-publishing.html#structuring-the-manuscript"><i class="fa fa-check"></i><b>7.2.1</b> Structuring the manuscript</a></li>
 <li class="chapter" data-level="7.2.2" data-path="writing-publishing.html"><a href="writing-publishing.html#language-tips"><i class="fa fa-check"></i><b>7.2.2</b> Language Tips</a></li>
 </ul></li>
@@ -246,22 +288,22 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="process-based-models" class="section level1 hasAnchor">
+<div id="process-based-models" class="section level1 hasAnchor" number="4">
 <h1><span class="header-section-number">Chapter 4</span> Process-based models<a href="process-based-models.html#process-based-models" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="ecomods-models" class="section level2 hasAnchor">
+<div id="ecomods-models" class="section level2 hasAnchor" number="4.1">
 <h2><span class="header-section-number">4.1</span> EcoMods models<a href="process-based-models.html#ecomods-models" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Here, you will find all of our working group’s models. For specific
 questions for each model, please refer to the respective lab member.</p>
-<div id="gemm" class="section level3 hasAnchor">
+<div id="gemm" class="section level3 hasAnchor" number="4.1.1">
 <h3><span class="header-section-number">4.1.1</span> GeMM<a href="process-based-models.html#gemm" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>TODO Robin</p>
 </div>
-<div id="mgm" class="section level3 hasAnchor">
+<div id="mgm" class="section level3 hasAnchor" number="4.1.2">
 <h3><span class="header-section-number">4.1.2</span> MGM<a href="process-based-models.html#mgm" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>MGM (Macrophyte Growth Model) is a process-based, eco-physiological
 model simulating the growth of submerged macrophytes under different
 environmental conditions. MGM is a simplified re-implementation of
-Charisma 2.0 <span class="citation">(van Nes et al. <a href="#ref-vannes2003" role="doc-biblioref">2003</a>)</span> in Julia language. The model scheme is
+Charisma 2.0 <span class="citation">(<a href="#ref-vannes2003"><span class="nocase">van Nes et al.</span> 2003</a>)</span> in Julia language. The model scheme is
 depicted in <a href="process-based-models.html#fig:MGM">4.1</a> .</p>
 <div class="figure"><span style="display:block;" id="fig:MGM"></span>
 <img src="booklet_pictures/MGM.png" alt="Model phylogeny of MGM (a) and simplified model scheme (b)."  />
@@ -273,14 +315,14 @@ Figure 4.1: Model phylogeny of MGM (a) and simplified model scheme (b).
 <a href="https://github.com/AnneLew/MGM">GitHub</a>.</p>
 <p>Further questions: ask Anne</p>
 </div>
-<div id="metarange" class="section level3 hasAnchor">
+<div id="metarange" class="section level3 hasAnchor" number="4.1.3">
 <h3><span class="header-section-number">4.1.3</span> metaRange<a href="process-based-models.html#metarange" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>general info - TODO JANA &amp; STEFAN</p>
-<div id="r-version" class="section level4 hasAnchor">
+<div id="r-version" class="section level4 hasAnchor" number="4.1.3.1">
 <h4><span class="header-section-number">4.1.3.1</span> R version<a href="process-based-models.html#r-version" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>TODO Stefan</p>
 </div>
-<div id="julia-version" class="section level4 hasAnchor">
+<div id="julia-version" class="section level4 hasAnchor" number="4.1.3.2">
 <h4><span class="header-section-number">4.1.3.2</span> Julia Version<a href="process-based-models.html#julia-version" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>TODO Jana</p>
 
@@ -289,9 +331,9 @@ Figure 4.1: Model phylogeny of MGM (a) and simplified model scheme (b).
 </div>
 </div>
 <h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<div id="refs" class="references">
-<div id="ref-vannes2003">
-<p>van Nes, Egbert H., Marten Scheffer, Marcel S. van den Berg, and Hugo Coops. 2003. “Charisma: A Spatial Explicit Simulation Model of Submerged Macrophytes.” <em>Ecological Modelling</em> 159 (2): 103–16. <a href="https://doi.org/10.1016/S0304-3800(02)00275-2">https://doi.org/10.1016/S0304-3800(02)00275-2</a>.</p>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-vannes2003" class="csl-entry">
+<span class="nocase">van Nes, Egbert H., Marten Scheffer, Marcel S. van den Berg, and Hugo Coops</span>. 2003. <span>“Charisma: A Spatial Explicit Simulation Model of Submerged Macrophytes.”</span> <em>Ecological Modelling</em> 159 (2): 103–16. <a href="https://doi.org/10.1016/S0304-3800(02)00275-2">https://doi.org/10.1016/S0304-3800(02)00275-2</a>.
 </div>
 </div>
             </section>
@@ -314,42 +356,42 @@ Figure 4.1: Model phylogeny of MGM (a) and simplified model scheme (b).
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
-"fontsettings": {
-"theme": "white",
-"family": "sans",
-"size": 2
-},
-"edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/03-mechanistic-models.Rmd",
-"text": "Edit"
-},
-"history": {
-"link": null,
-"text": null
-},
-"view": {
-"link": null,
-"text": null
-},
-"download": ["_main.pdf", "_main.epub"],
-"search": {
-"engine": "fuse",
-"options": null
-},
-"toc": {
-"collapse": "subsection"
-}
+  "sharing": {
+    "github": false,
+    "facebook": true,
+    "twitter": true,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": {
+    "link": "https://github.com/USERNAME/REPO/edit/BRANCH/03-mechanistic-models.Rmd",
+    "text": "Edit"
+  },
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": ["_main.pdf", "_main.epub"],
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection"
+  }
 });
 });
 </script>
