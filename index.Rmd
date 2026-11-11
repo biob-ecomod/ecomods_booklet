@@ -1,6 +1,6 @@
 ---
 title: "EcoMods Booklet"
-author: "The EcoMods, Würzburg"
+author: "Theo Pannetier, Bonn; The EcoMods, Würzburg"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -18,8 +18,6 @@ editor_options:
 
 # About this book
 
-Test change: do I have to recompile the book locally every time or can GHA handle it?
-
 Hello and welcome to the EcoMods working group!
 
 In this document, you will (hopefully) find everything you need for your course / internship / thesis with us.
@@ -30,7 +28,7 @@ or incomplete sections. You're welcome to ask for sections to be added,
 updated, or even better, improve it yourself! See section
 \@ref(contributing).
 
-## Acknowldegements and licensing
+## Acknowledgements and licensing
 
 This manual is an update of a manual of the [original
 Ecomods](CCTB-Ecomods/Ecomods-Booklet) at the University of Würzburg.
@@ -42,7 +40,7 @@ which means you can freely copy, modify and share its contents as long
 as you acknowledge the original work and provide a copyright notice and
 copy in the license in all derived works.
 
-## Contributing to this book
+## Contributing
 
 We gladly accept any suggestions on how to improve this guide, so let us
 know if you feel that anything is missing!
@@ -61,14 +59,13 @@ The booklet is hosted on
 
 4.  Step: Commit your changes and push them on GitHub.
 
-5.  Step: Then the magic happens: via github actions the website will be
-    updated, but this takes 5-10 Minutes (check the green dot!). This
-    creates files that are pushed automatically. Therefore, don't work
-    within the Repo while waiting and **pull the changes** before you go
-    on editing.
+5.  Step: Then the magic happens: via github actions the website will be updated, but this takes 5-10 Minutes (check the green dot!). 
+This creates files that are pushed automatically. 
+Therefore, don't work within the Repo while waiting and **pull the changes** before you go on editing.
 
 Don't forget to add links, citations, figures etc in a nice and
-organized way. Check text for typos and readability and be sure that a
+organized way. 
+Check text for typos and readability and be sure that a
 beginner can understand it.
 
 ## Missing sections and TODOs within this booklet
