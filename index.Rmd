@@ -18,6 +18,8 @@ editor_options:
 
 # About this book
 
+Test change: do I have to recompile the book locally every time or can GHA handle it?
+
 Hello and welcome to the EcoMods working group!
 
 In this document, you will (hopefully) find everything you need for your course / internship / thesis with us.
