@@ -24,28 +24,32 @@ Hello and welcome to the EcoMods working group!
 In this document, you will (hopefully) find everything you need for your
 course / internship / thesis with us.
 
-The book is meant to be a live document, and will be updated continuously.
-As you browse through sections, you will encounter empty or incomplete sections.
-You're welcome to ask for sections to be added, updated, or even better, improve
-it yourself! See section \@ref(contributing).
+The book is meant to be a live document, and will be updated
+continuously. As you browse through sections, you will encounter empty
+or incomplete sections. You're welcome to ask for sections to be added,
+updated, or even better, improve it yourself! See section
+\@ref(contributing).
 
 ## Acknowldegements and licensing
 
-This manual is an update of a manual of the [original Ecomods](CCTB-Ecomods/Ecomods-Booklet) at the University
-of Würzburg. Huge thanks to them for assembling this knowledge base!
+This manual is an update of a manual of the [original
+Ecomods](CCTB-Ecomods/Ecomods-Booklet) at the University of Würzburg.
+Huge thanks to them for assembling this knowledge base!
 
-The manual is published under the terms of the [MIT License](https://github.com/biob-ecomod/ecomods_booklet/blob/main/LICENSE), which means you can
-freely copy, modify and share its contents as long as you acknowledge the original
-work and provide a copyright notice and copy in the license in all derived works.
+The manual is published under the terms of the [MIT
+License](https://github.com/biob-ecomod/ecomods_booklet/blob/main/LICENSE),
+which means you can freely copy, modify and share its contents as long
+as you acknowledge the original work and provide a copyright notice and
+copy in the license in all derived works.
 
 ## Contributing to this book
 
-We gladly accept any suggestions on how to improve this guide, so
-let us know if you feel that anything is missing!
+We gladly accept any suggestions on how to improve this guide, so let us
+know if you feel that anything is missing!
 
-This booklet is a bookdown document. This means, that it
-consists of several R Markdown files. To learn R markdown see section
-\@ref(rmd). The booklet is hosted on
+This booklet is a bookdown document. This means, that it consists of
+several R Markdown files. To learn R markdown see section \@ref(rmd).
+The booklet is hosted on
 [GitHub](https://github.com/CCTB-Ecomods/Ecomods-Booklet) (see section
 \@ref(version-control).
 
@@ -74,55 +78,77 @@ the appropriate part.
 
 ## People
 
-
+[TODO]
 
 ## Induction
 
-Welcome to the group! We hope you have a great time with us and that your 
-experience in your lab will be the opportunity to develop your academic skills
-and explore exciting research!
+Welcome to the group! We hope you have a great time with us and that
+your experience in your lab will be the opportunity to develop your
+academic skills and explore exciting research!
 
 Here are the things you should be upon starting your projects:
 
--   **Keys**: our lab is hosted in the old NEES institute, Venusbergweg 22, at 
-the edge of the Botanische Gärten. Access to the building and other facilities
-of the institute is managed through transponders, which you must obtain in 
-person from Elke Friesecke at the main Plant Biodiversity building. 
-Upon leaving
+- **Keys**: our lab is hosted in the old NEES institute, [Venusbergweg
+  22](https://www.openstreetmap.org/way/406460211), at the edge of the
+  Botanische Gärten. Access to the building and other facilities of the
+  institute is managed through transponders, which you must obtain in
+  person from Elke Friesecke at the main building of the Nees-Institut
+  ([Meckenheimer Allee
+  170](https://www.openstreetmap.org/way/149556476)). You will need to
+  return the transponders upon leaving.
 
-- **Slack**: we have a Slack workspace for the group, which is our main channel
-for communication. You will find links to the lab meeting schedule and zoom call
-pinned in the #general channel. Ask another team member for an invite link!
+- **Slack**: we have a Slack workspace for the group, which is our main
+  channel for communication. You will find links to the lab meeting
+  schedule and zoom call pinned in the #general channel. Ask another
+  team member for an invite link!
 
-- **Meetings**: save these time slots for obligatory participation:
+- **Whatsapp**: we have a Whatsapp convo for instant communication
+  (mostly socials). Ask a team member for an invite if you'd like to
+  join.
 
-    -   weekly CCTB seminar, Wednesdays 11:00-12:00
-    -   weekly EcoMods lab meeting, Thursdays 13:30-15:00
+- **Calendar**: We keep a Google Calendar to pin and share relevant
+  events. If you'd like to get access, send a google account address to
+  Theo.
 
-- **IT questions:** Theo can help with all research-related software enquiries.
-For hardware issues, you can contact Tomi Balen.
+- **Meetings**: save these time slots for regular meetings:
 
-We hope that this document helps you to learn more about how to do
-Ecological Modeling group and how to navigate life at BIOB. If you have
-any questions, you can come by our offices or send us an email any time.
+  - Weekly Ecomod lab meeting, Mondays 17:00-18:00.
+  - NEES seminar (jointly with Prof. Max Weigend's group) Tuesdays
+    16:30-17:30
 
--   **University Library:** before using the services of the ULB (Universitäts
-un Landesbibliothek Bonn), you will need to get yourself a library ID card (Bibliothekausweis) and a user account, which are not automatically created upon
-joining the University. The procedure is detailed on the [ULB website](https://www.ulb.uni-bonn.de/de/nutzung-und-ausleihe/ausweis-konto).
+The schedule for the lab meetings is available
+[here](https://docs.google.com/document/d/1p0EdFmez05UcZ4QUoacWM9PfAQuAKpg7XM1HtXeEdRU/edit?usp=sharing).
+It is also possible to join online, the zoom link is pinned in the
+Slack's general channel.
+
+- **IT questions:** Theo can help with all research-related software
+  enquiries. For hardware issues, the responsible person for BIOB is Tomislav Balen. In particular, for security reasons our printer can only be accessed
+  with specific drivers, which are to be installed by Tomi.
+
+- **University Library:** before using the services of the ULB
+  (Universitäts und Landesbibliothek Bonn), you will need to get yourself
+  a library ID card (Bibliothekausweis) and a user account, which are
+  not automatically created upon joining the University. The procedure
+  is detailed on the [ULB
+  website](https://www.ulb.uni-bonn.de/de/nutzung-und-ausleihe/ausweis-konto).
+  You will need to submit a form, get the Uni Bonn app and after a few days you
+  will receive instructions on how to link your Uni-ID into the app. Finally,
+  you will need to head to the main ULB building to show a piece of ID, proof of
+  residence and proof of affiliation with Uni Bonn (enrolment certificate or
+  work contract).
 
 ## What you can find in this booklet
 
 You'll find information about the following topics:
 
--   **Programming tools** in Chapter \@ref(programming-tools)
+- **Programming tools** in Chapter \@ref(programming-tools)
 
--   **IT infrastructure** in Chapter \@ref(it-infrastructure)
+- **IT infrastructure** in Chapter \@ref(it-infrastructure)
 
--   **Process based models** in Chapter \@ref(process-based-models)
+- **Process based models** in Chapter \@ref(process-based-models)
 
--   **Computational methods** in Chapter \@ref(computational-methods)
+- **Computational methods** in Chapter \@ref(computational-methods)
 
--   **Project management** in Chapter \@ref(project-management)
+- **Project management** in Chapter \@ref(project-management)
 
--   **Writing & Publishing** in Chapter \@ref(writing-publishing)
-
+- **Writing & Publishing** in Chapter \@ref(writing-publishing)
